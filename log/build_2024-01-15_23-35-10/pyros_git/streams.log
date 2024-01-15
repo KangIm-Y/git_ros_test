@@ -1,0 +1,22 @@
+[4.626s] Invoking command in '/home/kangim/robot_ws/build/pyros_git': PYTHONPATH=/home/kangim/robot_ws/build/pyros_git/prefix_override:/home/kangim/robot_ws/install/pyros_git/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/kangim/robot_ws/build/pyros_git/build --no-deps install_data
+[6.012s] running develop
+[6.014s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[6.014s]   warnings.warn(
+[6.019s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.020s]   warnings.warn(
+[6.961s] running egg_info
+[6.962s] writing pyros_git.egg-info/PKG-INFO
+[6.963s] writing dependency_links to pyros_git.egg-info/dependency_links.txt
+[6.964s] writing entry points to pyros_git.egg-info/entry_points.txt
+[6.965s] writing requirements to pyros_git.egg-info/requires.txt
+[6.966s] writing top-level names to pyros_git.egg-info/top_level.txt
+[6.975s] reading manifest file 'pyros_git.egg-info/SOURCES.txt'
+[6.979s] writing manifest file 'pyros_git.egg-info/SOURCES.txt'
+[6.985s] running build_ext
+[6.986s] Creating /home/kangim/robot_ws/install/pyros_git/lib/python3.10/site-packages/pyros-git.egg-link (link to .)
+[6.990s] Installing pypub_helloworld script to /home/kangim/robot_ws/install/pyros_git/lib/pyros_git
+[6.991s] Installing pysub_helloworld script to /home/kangim/robot_ws/install/pyros_git/lib/pyros_git
+[6.992s] 
+[6.993s] Installed /home/kangim/robot_ws/build/pyros_git
+[6.993s] running install_data
+[7.140s] Invoked command in '/home/kangim/robot_ws/build/pyros_git' returned '0': PYTHONPATH=/home/kangim/robot_ws/build/pyros_git/prefix_override:/home/kangim/robot_ws/install/pyros_git/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/kangim/robot_ws/build/pyros_git/build --no-deps install_data

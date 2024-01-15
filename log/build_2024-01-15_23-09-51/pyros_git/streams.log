@@ -1,0 +1,27 @@
+[5.601s] Invoking command in '/home/kangim/robot_ws/build/pyros_git': PYTHONPATH=/home/kangim/robot_ws/build/pyros_git/prefix_override:/home/kangim/robot_ws/install/pyros_git/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/kangim/robot_ws/build/pyros_git/build --no-deps install_data
+[7.202s] running develop
+[7.207s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[7.207s]   warnings.warn(
+[7.214s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.215s]   warnings.warn(
+[8.244s] running egg_info
+[8.247s] creating pyros_git.egg-info
+[8.248s] writing pyros_git.egg-info/PKG-INFO
+[8.249s] writing dependency_links to pyros_git.egg-info/dependency_links.txt
+[8.249s] writing entry points to pyros_git.egg-info/entry_points.txt
+[8.250s] writing requirements to pyros_git.egg-info/requires.txt
+[8.250s] writing top-level names to pyros_git.egg-info/top_level.txt
+[8.251s] writing manifest file 'pyros_git.egg-info/SOURCES.txt'
+[8.258s] reading manifest file 'pyros_git.egg-info/SOURCES.txt'
+[8.262s] writing manifest file 'pyros_git.egg-info/SOURCES.txt'
+[8.271s] running build_ext
+[8.271s] Creating /home/kangim/robot_ws/install/pyros_git/lib/python3.10/site-packages/pyros-git.egg-link (link to .)
+[8.279s] 
+[8.280s] Installed /home/kangim/robot_ws/build/pyros_git
+[8.281s] running install_data
+[8.281s] creating /home/kangim/robot_ws/install/pyros_git/share/ament_index
+[8.282s] creating /home/kangim/robot_ws/install/pyros_git/share/ament_index/resource_index
+[8.283s] creating /home/kangim/robot_ws/install/pyros_git/share/ament_index/resource_index/packages
+[8.285s] copying resource/pyros_git -> /home/kangim/robot_ws/install/pyros_git/share/ament_index/resource_index/packages
+[8.286s] copying package.xml -> /home/kangim/robot_ws/install/pyros_git/share/pyros_git
+[8.437s] Invoked command in '/home/kangim/robot_ws/build/pyros_git' returned '0': PYTHONPATH=/home/kangim/robot_ws/build/pyros_git/prefix_override:/home/kangim/robot_ws/install/pyros_git/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/kangim/robot_ws/build/pyros_git/build --no-deps install_data

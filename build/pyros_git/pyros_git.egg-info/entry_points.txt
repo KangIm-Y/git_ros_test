@@ -1,0 +1,4 @@
+[console_scripts]
+pypub_helloworld = pyros_git.pypub_helloworld:main
+pysub_helloworld = pyros_git.pysub_helloworld:main
+

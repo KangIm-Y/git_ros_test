@@ -1,0 +1,25 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating pyros_git.egg-info
+writing pyros_git.egg-info/PKG-INFO
+writing dependency_links to pyros_git.egg-info/dependency_links.txt
+writing entry points to pyros_git.egg-info/entry_points.txt
+writing requirements to pyros_git.egg-info/requires.txt
+writing top-level names to pyros_git.egg-info/top_level.txt
+writing manifest file 'pyros_git.egg-info/SOURCES.txt'
+reading manifest file 'pyros_git.egg-info/SOURCES.txt'
+writing manifest file 'pyros_git.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/kangim/robot_ws/install/pyros_git/lib/python3.10/site-packages/pyros-git.egg-link (link to .)
+
+Installed /home/kangim/robot_ws/build/pyros_git
+running install_data
+creating /home/kangim/robot_ws/install/pyros_git/share/ament_index
+creating /home/kangim/robot_ws/install/pyros_git/share/ament_index/resource_index
+creating /home/kangim/robot_ws/install/pyros_git/share/ament_index/resource_index/packages
+copying resource/pyros_git -> /home/kangim/robot_ws/install/pyros_git/share/ament_index/resource_index/packages
+copying package.xml -> /home/kangim/robot_ws/install/pyros_git/share/pyros_git

@@ -1,0 +1,21 @@
+[ 50%] Built target sub_helloworld
+[100%] Built target pub_helloworld
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/kangim/robot_ws/install/git_ros/lib/git_ros/pub_helloworld
+-- Up-to-date symlink: /home/kangim/robot_ws/install/git_ros/lib/git_ros/sub_helloworld
+-- Up-to-date symlink: /home/kangim/robot_ws/install/git_ros/share/ament_index/resource_index/package_run_dependencies/git_ros
+-- Up-to-date symlink: /home/kangim/robot_ws/install/git_ros/share/ament_index/resource_index/parent_prefix_path/git_ros
+-- Up-to-date symlink: /home/kangim/robot_ws/install/git_ros/share/git_ros/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/kangim/robot_ws/install/git_ros/share/git_ros/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/kangim/robot_ws/install/git_ros/share/git_ros/environment/path.sh
+-- Up-to-date symlink: /home/kangim/robot_ws/install/git_ros/share/git_ros/environment/path.dsv
+-- Up-to-date symlink: /home/kangim/robot_ws/install/git_ros/share/git_ros/local_setup.bash
+-- Up-to-date symlink: /home/kangim/robot_ws/install/git_ros/share/git_ros/local_setup.sh
+-- Up-to-date symlink: /home/kangim/robot_ws/install/git_ros/share/git_ros/local_setup.zsh
+-- Up-to-date symlink: /home/kangim/robot_ws/install/git_ros/share/git_ros/local_setup.dsv
+-- Symlinking: /home/kangim/robot_ws/install/git_ros/share/git_ros/package.dsv
+-- Up-to-date symlink: /home/kangim/robot_ws/install/git_ros/share/ament_index/resource_index/packages/git_ros
+-- Up-to-date symlink: /home/kangim/robot_ws/install/git_ros/share/git_ros/cmake/git_rosConfig.cmake
+-- Up-to-date symlink: /home/kangim/robot_ws/install/git_ros/share/git_ros/cmake/git_rosConfig-version.cmake
+-- Up-to-date symlink: /home/kangim/robot_ws/install/git_ros/share/git_ros/package.xml

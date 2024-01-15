@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/kangim/robot_ws/build/cppros_git/cpppub_helloworld" "/home/kangim/robot_ws/build/cppros_git/cppsub_helloworld" "TARGETS" "cpppub_helloworld" "cppsub_helloworld" "DESTINATION" "lib/cppros_git")

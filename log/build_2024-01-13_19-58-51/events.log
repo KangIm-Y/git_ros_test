@@ -1,0 +1,274 @@
+[0.000000] (-) TimerEvent: {}
+[0.001275] (git_ros) JobQueued: {'identifier': 'git_ros', 'dependencies': OrderedDict()}
+[0.001517] (git_ros) JobStarted: {'identifier': 'git_ros'}
+[0.098022] (-) TimerEvent: {}
+[0.199080] (-) TimerEvent: {}
+[0.301399] (-) TimerEvent: {}
+[0.409080] (-) TimerEvent: {}
+[0.510104] (-) TimerEvent: {}
+[0.610972] (-) TimerEvent: {}
+[0.633224] (git_ros) JobProgress: {'identifier': 'git_ros', 'progress': 'cmake'}
+[0.634321] (git_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/kangim/robot_ws/src/git_ros', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/kangim/robot_ws/install/git_ros'], 'cwd': '/home/kangim/robot_ws/build/git_ros', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en_US:en'), ('USER', 'kangim'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kangim'), ('OLDPWD', '/home/kangim/robot_ws/src/git_ros/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '990'), ('SYSTEMD_EXEC_PID', '1256'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3883'), ('_colcon_cd_root', '/home/kangim/robot_ws'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kangim/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kangim'), ('JOURNAL_STREAM', '8:24755'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kangim'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/raspi:@/tmp/.ICE-unix/1238,unix/raspi:/tmp/.ICE-unix/1238'), ('INVOCATION_ID', '891e11ea69c74a4d8132df54d3cb480c'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RXMCB2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:a97cd290-085d-4ffe-bce4-f269137ec46b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/kangim/robot_ws/build/git_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.711216] (-) TimerEvent: {}
+[0.812171] (-) TimerEvent: {}
+[0.913188] (-) TimerEvent: {}
+[1.014141] (-) TimerEvent: {}
+[1.115089] (-) TimerEvent: {}
+[1.216095] (-) TimerEvent: {}
+[1.317134] (-) TimerEvent: {}
+[1.418392] (-) TimerEvent: {}
+[1.519681] (-) TimerEvent: {}
+[1.620624] (-) TimerEvent: {}
+[1.721692] (-) TimerEvent: {}
+[1.822583] (-) TimerEvent: {}
+[1.923575] (-) TimerEvent: {}
+[2.024483] (-) TimerEvent: {}
+[2.125383] (-) TimerEvent: {}
+[2.226287] (-) TimerEvent: {}
+[2.327209] (-) TimerEvent: {}
+[2.428151] (-) TimerEvent: {}
+[2.529113] (-) TimerEvent: {}
+[2.630047] (-) TimerEvent: {}
+[2.731053] (-) TimerEvent: {}
+[2.832128] (-) TimerEvent: {}
+[2.933059] (-) TimerEvent: {}
+[3.034129] (-) TimerEvent: {}
+[3.135161] (-) TimerEvent: {}
+[3.236035] (-) TimerEvent: {}
+[3.336776] (-) TimerEvent: {}
+[3.437662] (-) TimerEvent: {}
+[3.538439] (-) TimerEvent: {}
+[3.639310] (-) TimerEvent: {}
+[3.740099] (-) TimerEvent: {}
+[3.840933] (-) TimerEvent: {}
+[3.941815] (-) TimerEvent: {}
+[4.042742] (-) TimerEvent: {}
+[4.143590] (-) TimerEvent: {}
+[4.244372] (-) TimerEvent: {}
+[4.345282] (-) TimerEvent: {}
+[4.446185] (-) TimerEvent: {}
+[4.547060] (-) TimerEvent: {}
+[4.647852] (-) TimerEvent: {}
+[4.748654] (-) TimerEvent: {}
+[4.849515] (-) TimerEvent: {}
+[4.950452] (-) TimerEvent: {}
+[5.051333] (-) TimerEvent: {}
+[5.152261] (-) TimerEvent: {}
+[5.253114] (-) TimerEvent: {}
+[5.353996] (-) TimerEvent: {}
+[5.454856] (-) TimerEvent: {}
+[5.555772] (-) TimerEvent: {}
+[5.656573] (-) TimerEvent: {}
+[5.757411] (-) TimerEvent: {}
+[5.789337] (git_ros) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[5.857618] (-) TimerEvent: {}
+[5.958605] (-) TimerEvent: {}
+[6.059308] (-) TimerEvent: {}
+[6.165333] (-) TimerEvent: {}
+[6.266765] (-) TimerEvent: {}
+[6.367691] (-) TimerEvent: {}
+[6.468553] (-) TimerEvent: {}
+[6.570614] (-) TimerEvent: {}
+[6.598413] (git_ros) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[6.656737] (git_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.670792] (-) TimerEvent: {}
+[6.771768] (-) TimerEvent: {}
+[6.872766] (-) TimerEvent: {}
+[6.973845] (-) TimerEvent: {}
+[7.074744] (-) TimerEvent: {}
+[7.175662] (-) TimerEvent: {}
+[7.176638] (git_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[7.217595] (git_ros) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[7.226555] (git_ros) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[7.230152] (git_ros) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[7.257867] (git_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[7.275899] (-) TimerEvent: {}
+[7.377166] (-) TimerEvent: {}
+[7.478006] (-) TimerEvent: {}
+[7.578807] (-) TimerEvent: {}
+[7.681198] (-) TimerEvent: {}
+[7.782125] (-) TimerEvent: {}
+[7.824089] (git_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[7.873509] (git_ros) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[7.875026] (git_ros) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[7.878244] (git_ros) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[7.882402] (-) TimerEvent: {}
+[7.952717] (git_ros) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[7.982605] (-) TimerEvent: {}
+[8.083834] (-) TimerEvent: {}
+[8.184639] (-) TimerEvent: {}
+[8.285680] (-) TimerEvent: {}
+[8.390524] (-) TimerEvent: {}
+[8.504884] (-) TimerEvent: {}
+[8.606283] (-) TimerEvent: {}
+[8.707262] (-) TimerEvent: {}
+[8.808338] (-) TimerEvent: {}
+[8.909519] (-) TimerEvent: {}
+[9.010290] (-) TimerEvent: {}
+[9.111060] (-) TimerEvent: {}
+[9.212176] (-) TimerEvent: {}
+[9.288891] (git_ros) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[9.312733] (-) TimerEvent: {}
+[9.413869] (-) TimerEvent: {}
+[9.514866] (-) TimerEvent: {}
+[9.615808] (-) TimerEvent: {}
+[9.716797] (-) TimerEvent: {}
+[9.817782] (-) TimerEvent: {}
+[9.882764] (git_ros) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[9.921157] (-) TimerEvent: {}
+[10.022124] (-) TimerEvent: {}
+[10.122968] (-) TimerEvent: {}
+[10.223939] (-) TimerEvent: {}
+[10.325290] (-) TimerEvent: {}
+[10.405652] (git_ros) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[10.425481] (-) TimerEvent: {}
+[10.526618] (-) TimerEvent: {}
+[10.627824] (-) TimerEvent: {}
+[10.730704] (-) TimerEvent: {}
+[10.831514] (-) TimerEvent: {}
+[10.932440] (-) TimerEvent: {}
+[11.033281] (-) TimerEvent: {}
+[11.062150] (git_ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[11.133458] (-) TimerEvent: {}
+[11.141877] (git_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[11.233678] (-) TimerEvent: {}
+[11.242397] (git_ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[11.333915] (-) TimerEvent: {}
+[11.382303] (git_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[11.434121] (-) TimerEvent: {}
+[11.535053] (-) TimerEvent: {}
+[11.589849] (git_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[11.635528] (-) TimerEvent: {}
+[11.736561] (-) TimerEvent: {}
+[11.837695] (-) TimerEvent: {}
+[11.938620] (-) TimerEvent: {}
+[12.039449] (-) TimerEvent: {}
+[12.140203] (-) TimerEvent: {}
+[12.213416] (git_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[12.240436] (-) TimerEvent: {}
+[12.247599] (git_ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[12.340649] (-) TimerEvent: {}
+[12.441538] (-) TimerEvent: {}
+[12.542341] (-) TimerEvent: {}
+[12.643588] (-) TimerEvent: {}
+[12.744435] (-) TimerEvent: {}
+[12.845149] (-) TimerEvent: {}
+[12.951183] (-) TimerEvent: {}
+[13.052353] (-) TimerEvent: {}
+[13.142004] (git_ros) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[13.152818] (-) TimerEvent: {}
+[13.254048] (-) TimerEvent: {}
+[13.354828] (-) TimerEvent: {}
+[13.455582] (-) TimerEvent: {}
+[13.456534] (git_ros) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[13.555798] (-) TimerEvent: {}
+[13.656557] (-) TimerEvent: {}
+[13.757338] (-) TimerEvent: {}
+[13.858096] (-) TimerEvent: {}
+[13.958895] (-) TimerEvent: {}
+[14.008649] (git_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[14.059081] (-) TimerEvent: {}
+[14.118628] (git_ros) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[14.159307] (-) TimerEvent: {}
+[14.260197] (-) TimerEvent: {}
+[14.361106] (-) TimerEvent: {}
+[14.461893] (-) TimerEvent: {}
+[14.562826] (-) TimerEvent: {}
+[14.590743] (git_ros) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[14.593573] (git_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[14.663870] (-) TimerEvent: {}
+[14.764719] (-) TimerEvent: {}
+[14.865649] (-) TimerEvent: {}
+[14.972683] (-) TimerEvent: {}
+[15.078418] (-) TimerEvent: {}
+[15.094201] (git_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[15.100302] (git_ros) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[15.178594] (-) TimerEvent: {}
+[15.279349] (-) TimerEvent: {}
+[15.380180] (-) TimerEvent: {}
+[15.481054] (-) TimerEvent: {}
+[15.581884] (-) TimerEvent: {}
+[15.682611] (-) TimerEvent: {}
+[15.783352] (-) TimerEvent: {}
+[15.884225] (-) TimerEvent: {}
+[15.985136] (-) TimerEvent: {}
+[16.062009] (git_ros) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[16.085371] (-) TimerEvent: {}
+[16.186261] (-) TimerEvent: {}
+[16.287031] (-) TimerEvent: {}
+[16.387777] (-) TimerEvent: {}
+[16.488490] (-) TimerEvent: {}
+[16.589339] (-) TimerEvent: {}
+[16.690339] (-) TimerEvent: {}
+[16.791359] (-) TimerEvent: {}
+[16.892206] (-) TimerEvent: {}
+[16.993201] (-) TimerEvent: {}
+[17.094230] (-) TimerEvent: {}
+[17.195250] (-) TimerEvent: {}
+[17.296268] (-) TimerEvent: {}
+[17.397216] (-) TimerEvent: {}
+[17.498251] (-) TimerEvent: {}
+[17.599152] (-) TimerEvent: {}
+[17.700098] (-) TimerEvent: {}
+[17.801179] (-) TimerEvent: {}
+[17.902200] (-) TimerEvent: {}
+[18.003080] (-) TimerEvent: {}
+[18.103946] (-) TimerEvent: {}
+[18.160464] (git_ros) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[18.161475] (git_ros) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[18.162035] (git_ros) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[18.167246] (git_ros) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[18.177941] (git_ros) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[18.178788] (git_ros) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[18.181948] (git_ros) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[18.193639] (git_ros) StdoutLine: {'line': b'-- Configuring done\n'}
+[18.204145] (-) TimerEvent: {}
+[18.235855] (git_ros) StdoutLine: {'line': b'-- Generating done\n'}
+[18.245370] (git_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/kangim/robot_ws/build/git_ros\n'}
+[18.289253] (git_ros) CommandEnded: {'returncode': 0}
+[18.291931] (git_ros) JobProgress: {'identifier': 'git_ros', 'progress': 'build'}
+[18.297621] (git_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kangim/robot_ws/build/git_ros', '--', '-j4', '-l4'], 'cwd': '/home/kangim/robot_ws/build/git_ros', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en_US:en'), ('USER', 'kangim'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kangim'), ('OLDPWD', '/home/kangim/robot_ws/src/git_ros/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '990'), ('SYSTEMD_EXEC_PID', '1256'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3883'), ('_colcon_cd_root', '/home/kangim/robot_ws'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kangim/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kangim'), ('JOURNAL_STREAM', '8:24755'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kangim'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/raspi:@/tmp/.ICE-unix/1238,unix/raspi:/tmp/.ICE-unix/1238'), ('INVOCATION_ID', '891e11ea69c74a4d8132df54d3cb480c'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RXMCB2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:a97cd290-085d-4ffe-bce4-f269137ec46b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/kangim/robot_ws/build/git_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[18.306406] (-) TimerEvent: {}
+[18.407911] (-) TimerEvent: {}
+[18.495853] (git_ros) CommandEnded: {'returncode': 0}
+[18.508253] (-) TimerEvent: {}
+[18.609105] (-) TimerEvent: {}
+[18.646206] (git_ros) JobProgress: {'identifier': 'git_ros', 'progress': 'install'}
+[18.689951] (git_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kangim/robot_ws/build/git_ros'], 'cwd': '/home/kangim/robot_ws/build/git_ros', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en_US:en'), ('USER', 'kangim'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kangim'), ('OLDPWD', '/home/kangim/robot_ws/src/git_ros/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '990'), ('SYSTEMD_EXEC_PID', '1256'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3883'), ('_colcon_cd_root', '/home/kangim/robot_ws'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kangim/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kangim'), ('JOURNAL_STREAM', '8:24755'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kangim'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/raspi:@/tmp/.ICE-unix/1238,unix/raspi:/tmp/.ICE-unix/1238'), ('INVOCATION_ID', '891e11ea69c74a4d8132df54d3cb480c'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RXMCB2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:a97cd290-085d-4ffe-bce4-f269137ec46b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/kangim/robot_ws/build/git_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[18.709320] (-) TimerEvent: {}
+[18.725602] (git_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.727436] (git_ros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[18.729564] (git_ros) StdoutLine: {'line': b'-- Symlinking: /home/kangim/robot_ws/install/git_ros/share/ament_index/resource_index/package_run_dependencies/git_ros\n'}
+[18.772213] (git_ros) StdoutLine: {'line': b'-- Symlinking: /home/kangim/robot_ws/install/git_ros/share/ament_index/resource_index/parent_prefix_path/git_ros\n'}
+[18.809523] (-) TimerEvent: {}
+[18.811098] (git_ros) StdoutLine: {'line': b'-- Symlinking: /home/kangim/robot_ws/install/git_ros/share/git_ros/environment/ament_prefix_path.sh\n'}
+[18.852890] (git_ros) StdoutLine: {'line': b'-- Symlinking: /home/kangim/robot_ws/install/git_ros/share/git_ros/environment/ament_prefix_path.dsv\n'}
+[18.892265] (git_ros) StdoutLine: {'line': b'-- Symlinking: /home/kangim/robot_ws/install/git_ros/share/git_ros/environment/path.sh\n'}
+[18.909739] (-) TimerEvent: {}
+[18.929734] (git_ros) StdoutLine: {'line': b'-- Symlinking: /home/kangim/robot_ws/install/git_ros/share/git_ros/environment/path.dsv\n'}
+[18.969951] (git_ros) StdoutLine: {'line': b'-- Symlinking: /home/kangim/robot_ws/install/git_ros/share/git_ros/local_setup.bash\n'}
+[19.008924] (git_ros) StdoutLine: {'line': b'-- Symlinking: /home/kangim/robot_ws/install/git_ros/share/git_ros/local_setup.sh\n'}
+[19.009846] (-) TimerEvent: {}
+[19.047872] (git_ros) StdoutLine: {'line': b'-- Symlinking: /home/kangim/robot_ws/install/git_ros/share/git_ros/local_setup.zsh\n'}
+[19.089496] (git_ros) StdoutLine: {'line': b'-- Symlinking: /home/kangim/robot_ws/install/git_ros/share/git_ros/local_setup.dsv\n'}
+[19.110104] (-) TimerEvent: {}
+[19.132408] (git_ros) StdoutLine: {'line': b'-- Symlinking: /home/kangim/robot_ws/install/git_ros/share/git_ros/package.dsv\n'}
+[19.178640] (git_ros) StdoutLine: {'line': b'-- Symlinking: /home/kangim/robot_ws/install/git_ros/share/ament_index/resource_index/packages/git_ros\n'}
+[19.210373] (-) TimerEvent: {}
+[19.221431] (git_ros) StdoutLine: {'line': b'-- Symlinking: /home/kangim/robot_ws/install/git_ros/share/git_ros/cmake/git_rosConfig.cmake\n'}
+[19.265013] (git_ros) StdoutLine: {'line': b'-- Symlinking: /home/kangim/robot_ws/install/git_ros/share/git_ros/cmake/git_rosConfig-version.cmake\n'}
+[19.310813] (-) TimerEvent: {}
+[19.311960] (git_ros) StdoutLine: {'line': b'-- Symlinking: /home/kangim/robot_ws/install/git_ros/share/git_ros/package.xml\n'}
+[19.370516] (git_ros) CommandEnded: {'returncode': 0}
+[19.411079] (-) TimerEvent: {}
+[19.520533] (-) TimerEvent: {}
+[19.622803] (-) TimerEvent: {}
+[19.724729] (-) TimerEvent: {}
+[19.827310] (-) TimerEvent: {}
+[19.928175] (-) TimerEvent: {}
+[20.029063] (-) TimerEvent: {}
+[20.130242] (-) TimerEvent: {}
+[20.231896] (-) TimerEvent: {}
+[20.333452] (-) TimerEvent: {}
+[20.388082] (git_ros) JobEnded: {'identifier': 'git_ros', 'rc': 0}
+[20.391070] (-) EventReactorShutdown: {}

@@ -1,0 +1,1 @@
+/home/kangim/robot_ws/build/git_ros/ament_cmake_core/git_rosConfig.cmake

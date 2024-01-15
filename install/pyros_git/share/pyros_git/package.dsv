@@ -1,0 +1,9 @@
+source;share/pyros_git/hook/pythonpath.ps1
+source;share/pyros_git/hook/pythonpath.dsv
+source;share/pyros_git/hook/pythonpath.sh
+source;share/pyros_git/hook/ament_prefix_path.ps1
+source;share/pyros_git/hook/ament_prefix_path.dsv
+source;share/pyros_git/hook/ament_prefix_path.sh
+source;../../build/pyros_git/share/pyros_git/hook/pythonpath_develop.ps1
+source;../../build/pyros_git/share/pyros_git/hook/pythonpath_develop.dsv
+source;../../build/pyros_git/share/pyros_git/hook/pythonpath_develop.sh
