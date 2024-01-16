@@ -1,0 +1,209 @@
+[5.278s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[5.279s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffb3b575b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb3fed030>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb3fed030>>)
+[5.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[5.508s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[5.508s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[5.508s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[5.508s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[5.508s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[5.508s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kangim/robot_ws'
+[5.509s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[5.509s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[5.510s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[5.510s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[5.510s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[5.510s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[5.510s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[5.511s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[5.511s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[5.564s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[5.564s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[5.564s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[5.564s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[5.564s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[5.565s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[5.565s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[5.566s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[5.566s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[5.567s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[5.567s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[5.568s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[5.568s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[5.568s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[5.568s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[5.569s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[5.569s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[5.569s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[5.569s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[5.570s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[5.570s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[5.570s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[5.570s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[5.570s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[5.571s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[5.571s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[5.571s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[5.571s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[5.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/cppros_git) by extensions ['ignore', 'ignore_ament_install']
+[5.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/cppros_git) by extension 'ignore'
+[5.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/cppros_git) by extension 'ignore_ament_install'
+[5.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/cppros_git) by extensions ['colcon_pkg']
+[5.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/cppros_git) by extension 'colcon_pkg'
+[5.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/cppros_git) by extensions ['colcon_meta']
+[5.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/cppros_git) by extension 'colcon_meta'
+[5.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/cppros_git) by extensions ['ros']
+[5.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/cppros_git) by extension 'ros'
+[5.584s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cppros_git' with type 'ros.ament_cmake' and name 'cppros_git'
+[5.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/git_ros) by extensions ['ignore', 'ignore_ament_install']
+[5.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/git_ros) by extension 'ignore'
+[5.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/git_ros) by extension 'ignore_ament_install'
+[5.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/git_ros) by extensions ['colcon_pkg']
+[5.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/git_ros) by extension 'colcon_pkg'
+[5.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/git_ros) by extensions ['colcon_meta']
+[5.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/git_ros) by extension 'colcon_meta'
+[5.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/git_ros) by extensions ['ros']
+[5.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/git_ros) by extension 'ros'
+[5.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/git_ros) by extensions ['cmake', 'python']
+[5.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/git_ros) by extension 'cmake'
+[5.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/git_ros) by extension 'python'
+[5.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/git_ros) by extensions ['python_setup_py']
+[5.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/git_ros) by extension 'python_setup_py'
+[5.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/pyros_git) by extensions ['ignore', 'ignore_ament_install']
+[5.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/pyros_git) by extension 'ignore'
+[5.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/pyros_git) by extension 'ignore_ament_install'
+[5.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/pyros_git) by extensions ['colcon_pkg']
+[5.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/pyros_git) by extension 'colcon_pkg'
+[5.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/pyros_git) by extensions ['colcon_meta']
+[5.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/pyros_git) by extension 'colcon_meta'
+[5.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/pyros_git) by extensions ['ros']
+[5.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/pyros_git) by extension 'ros'
+[5.592s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pyros_git' with type 'ros.ament_python' and name 'pyros_git'
+[5.593s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[5.593s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[5.593s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[5.593s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[5.593s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[6.043s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[6.043s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[6.197s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/kangim/robot_ws/install
+[6.281s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[6.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[6.747s] Level 5:colcon.colcon_core.verb:set package 'cppros_git' build argument 'cmake_args' from command line to 'None'
+[6.747s] Level 5:colcon.colcon_core.verb:set package 'cppros_git' build argument 'cmake_target' from command line to 'None'
+[6.747s] Level 5:colcon.colcon_core.verb:set package 'cppros_git' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.747s] Level 5:colcon.colcon_core.verb:set package 'cppros_git' build argument 'cmake_clean_cache' from command line to 'False'
+[6.747s] Level 5:colcon.colcon_core.verb:set package 'cppros_git' build argument 'cmake_clean_first' from command line to 'False'
+[6.747s] Level 5:colcon.colcon_core.verb:set package 'cppros_git' build argument 'cmake_force_configure' from command line to 'False'
+[6.748s] Level 5:colcon.colcon_core.verb:set package 'cppros_git' build argument 'ament_cmake_args' from command line to 'None'
+[6.748s] Level 5:colcon.colcon_core.verb:set package 'cppros_git' build argument 'catkin_cmake_args' from command line to 'None'
+[6.748s] Level 5:colcon.colcon_core.verb:set package 'cppros_git' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.748s] DEBUG:colcon.colcon_core.verb:Building package 'cppros_git' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kangim/robot_ws/build/cppros_git', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kangim/robot_ws/install/cppros_git', 'merge_install': False, 'path': '/home/kangim/robot_ws/src/cppros_git', 'symlink_install': True, 'test_result_base': None}
+[6.822s] Level 5:colcon.colcon_core.verb:set package 'pyros_git' build argument 'cmake_args' from command line to 'None'
+[6.822s] Level 5:colcon.colcon_core.verb:set package 'pyros_git' build argument 'cmake_target' from command line to 'None'
+[6.822s] Level 5:colcon.colcon_core.verb:set package 'pyros_git' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.822s] Level 5:colcon.colcon_core.verb:set package 'pyros_git' build argument 'cmake_clean_cache' from command line to 'False'
+[6.823s] Level 5:colcon.colcon_core.verb:set package 'pyros_git' build argument 'cmake_clean_first' from command line to 'False'
+[6.823s] Level 5:colcon.colcon_core.verb:set package 'pyros_git' build argument 'cmake_force_configure' from command line to 'False'
+[6.823s] Level 5:colcon.colcon_core.verb:set package 'pyros_git' build argument 'ament_cmake_args' from command line to 'None'
+[6.823s] Level 5:colcon.colcon_core.verb:set package 'pyros_git' build argument 'catkin_cmake_args' from command line to 'None'
+[6.823s] Level 5:colcon.colcon_core.verb:set package 'pyros_git' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.823s] DEBUG:colcon.colcon_core.verb:Building package 'pyros_git' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kangim/robot_ws/build/pyros_git', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kangim/robot_ws/install/pyros_git', 'merge_install': False, 'path': '/home/kangim/robot_ws/src/pyros_git', 'symlink_install': True, 'test_result_base': None}
+[6.899s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[6.976s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[6.977s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kangim/robot_ws/src/cppros_git' with build type 'ament_cmake'
+[6.978s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kangim/robot_ws/src/cppros_git'
+[7.069s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[7.070s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.070s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.367s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kangim/robot_ws/src/pyros_git' with build type 'ament_python'
+[7.368s] Level 1:colcon.colcon_core.shell:create_environment_hook('pyros_git', 'ament_prefix_path')
+[7.459s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kangim/robot_ws/install/pyros_git/share/pyros_git/hook/ament_prefix_path.ps1'
+[7.462s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kangim/robot_ws/install/pyros_git/share/pyros_git/hook/ament_prefix_path.dsv'
+[7.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kangim/robot_ws/install/pyros_git/share/pyros_git/hook/ament_prefix_path.sh'
+[7.547s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.547s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.817s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kangim/robot_ws/build/cppros_git': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kangim/robot_ws/install/pyros_git:/opt/ros/humble /usr/bin/cmake --build /home/kangim/robot_ws/build/cppros_git -- -j4 -l4
+[9.385s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kangim/robot_ws/src/pyros_git'
+[9.469s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.469s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.048s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kangim/robot_ws/build/pyros_git': PYTHONPATH=/home/kangim/robot_ws/build/pyros_git/prefix_override:/home/kangim/robot_ws/install/pyros_git/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/kangim/robot_ws/build/pyros_git/build --no-deps install_data
+[15.464s] Level 1:colcon.colcon_core.shell:create_environment_hook('pyros_git', 'pythonpath_develop')
+[15.470s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kangim/robot_ws/build/pyros_git' returned '0': PYTHONPATH=/home/kangim/robot_ws/build/pyros_git/prefix_override:/home/kangim/robot_ws/install/pyros_git/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/kangim/robot_ws/build/pyros_git/build --no-deps install_data
+[15.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kangim/robot_ws/build/pyros_git/share/pyros_git/hook/pythonpath_develop.ps1'
+[15.581s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kangim/robot_ws/build/pyros_git/share/pyros_git/hook/pythonpath_develop.dsv'
+[15.584s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kangim/robot_ws/build/pyros_git/share/pyros_git/hook/pythonpath_develop.sh'
+[15.711s] Level 1:colcon.colcon_core.environment:checking '/home/kangim/robot_ws/install/pyros_git' for CMake module files
+[15.714s] Level 1:colcon.colcon_core.environment:checking '/home/kangim/robot_ws/install/pyros_git' for CMake config files
+[15.719s] Level 1:colcon.colcon_core.environment:checking '/home/kangim/robot_ws/install/pyros_git/lib'
+[15.720s] Level 1:colcon.colcon_core.environment:checking '/home/kangim/robot_ws/install/pyros_git/bin'
+[15.721s] Level 1:colcon.colcon_core.environment:checking '/home/kangim/robot_ws/install/pyros_git/lib/pkgconfig/pyros_git.pc'
+[15.722s] Level 1:colcon.colcon_core.environment:checking '/home/kangim/robot_ws/install/pyros_git/lib/python3.10/site-packages'
+[15.723s] Level 1:colcon.colcon_core.shell:create_environment_hook('pyros_git', 'pythonpath')
+[15.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kangim/robot_ws/install/pyros_git/share/pyros_git/hook/pythonpath.ps1'
+[15.840s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kangim/robot_ws/install/pyros_git/share/pyros_git/hook/pythonpath.dsv'
+[15.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kangim/robot_ws/install/pyros_git/share/pyros_git/hook/pythonpath.sh'
+[15.846s] Level 1:colcon.colcon_core.environment:checking '/home/kangim/robot_ws/install/pyros_git/bin'
+[15.846s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pyros_git)
+[15.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/kangim/robot_ws/install/pyros_git/share/pyros_git/package.ps1'
+[15.972s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kangim/robot_ws/install/pyros_git/share/pyros_git/package.dsv'
+[15.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/kangim/robot_ws/install/pyros_git/share/pyros_git/package.sh'
+[15.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/kangim/robot_ws/install/pyros_git/share/pyros_git/package.bash'
+[15.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/kangim/robot_ws/install/pyros_git/share/pyros_git/package.zsh'
+[15.989s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kangim/robot_ws/install/pyros_git/share/colcon-core/packages/pyros_git)
+[30.312s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kangim/robot_ws/build/cppros_git' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kangim/robot_ws/install/pyros_git:/opt/ros/humble /usr/bin/cmake --build /home/kangim/robot_ws/build/cppros_git -- -j4 -l4
+[30.540s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kangim/robot_ws/build/cppros_git': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kangim/robot_ws/install/pyros_git:/opt/ros/humble /usr/bin/cmake --install /home/kangim/robot_ws/build/cppros_git
+[30.632s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cppros_git)
+[30.634s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kangim/robot_ws/build/cppros_git' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kangim/robot_ws/install/pyros_git:/opt/ros/humble /usr/bin/cmake --install /home/kangim/robot_ws/build/cppros_git
+[30.716s] Level 1:colcon.colcon_core.environment:checking '/home/kangim/robot_ws/install/cppros_git' for CMake module files
+[30.720s] Level 1:colcon.colcon_core.environment:checking '/home/kangim/robot_ws/install/cppros_git' for CMake config files
+[30.722s] Level 1:colcon.colcon_core.shell:create_environment_hook('cppros_git', 'cmake_prefix_path')
+[30.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kangim/robot_ws/install/cppros_git/share/cppros_git/hook/cmake_prefix_path.ps1'
+[30.805s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kangim/robot_ws/install/cppros_git/share/cppros_git/hook/cmake_prefix_path.dsv'
+[30.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kangim/robot_ws/install/cppros_git/share/cppros_git/hook/cmake_prefix_path.sh'
+[30.810s] Level 1:colcon.colcon_core.environment:checking '/home/kangim/robot_ws/install/cppros_git/lib'
+[30.810s] Level 1:colcon.colcon_core.environment:checking '/home/kangim/robot_ws/install/cppros_git/bin'
+[30.810s] Level 1:colcon.colcon_core.environment:checking '/home/kangim/robot_ws/install/cppros_git/lib/pkgconfig/cppros_git.pc'
+[30.812s] Level 1:colcon.colcon_core.environment:checking '/home/kangim/robot_ws/install/cppros_git/lib/python3.10/site-packages'
+[30.812s] Level 1:colcon.colcon_core.environment:checking '/home/kangim/robot_ws/install/cppros_git/bin'
+[30.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/kangim/robot_ws/install/cppros_git/share/cppros_git/package.ps1'
+[30.897s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kangim/robot_ws/install/cppros_git/share/cppros_git/package.dsv'
+[30.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/kangim/robot_ws/install/cppros_git/share/cppros_git/package.sh'
+[30.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/kangim/robot_ws/install/cppros_git/share/cppros_git/package.bash'
+[30.903s] INFO:colcon.colcon_core.shell:Creating package script '/home/kangim/robot_ws/install/cppros_git/share/cppros_git/package.zsh'
+[30.905s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kangim/robot_ws/install/cppros_git/share/colcon-core/packages/cppros_git)
+[31.151s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cppros_git)
+[31.229s] Level 1:colcon.colcon_core.environment:checking '/home/kangim/robot_ws/install/cppros_git' for CMake module files
+[31.232s] Level 1:colcon.colcon_core.environment:checking '/home/kangim/robot_ws/install/cppros_git' for CMake config files
+[31.235s] Level 1:colcon.colcon_core.shell:create_environment_hook('cppros_git', 'cmake_prefix_path')
+[31.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kangim/robot_ws/install/cppros_git/share/cppros_git/hook/cmake_prefix_path.ps1'
+[31.315s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kangim/robot_ws/install/cppros_git/share/cppros_git/hook/cmake_prefix_path.dsv'
+[31.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kangim/robot_ws/install/cppros_git/share/cppros_git/hook/cmake_prefix_path.sh'
+[31.319s] Level 1:colcon.colcon_core.environment:checking '/home/kangim/robot_ws/install/cppros_git/lib'
+[31.320s] Level 1:colcon.colcon_core.environment:checking '/home/kangim/robot_ws/install/cppros_git/bin'
+[31.320s] Level 1:colcon.colcon_core.environment:checking '/home/kangim/robot_ws/install/cppros_git/lib/pkgconfig/cppros_git.pc'
+[31.321s] Level 1:colcon.colcon_core.environment:checking '/home/kangim/robot_ws/install/cppros_git/lib/python3.10/site-packages'
+[31.322s] Level 1:colcon.colcon_core.environment:checking '/home/kangim/robot_ws/install/cppros_git/bin'
+[31.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/kangim/robot_ws/install/cppros_git/share/cppros_git/package.ps1'
+[31.403s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kangim/robot_ws/install/cppros_git/share/cppros_git/package.dsv'
+[31.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/kangim/robot_ws/install/cppros_git/share/cppros_git/package.sh'
+[31.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/kangim/robot_ws/install/cppros_git/share/cppros_git/package.bash'
+[31.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/kangim/robot_ws/install/cppros_git/share/cppros_git/package.zsh'
+[31.412s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kangim/robot_ws/install/cppros_git/share/colcon-core/packages/cppros_git)
+[31.413s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[31.414s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[31.415s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[31.415s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[31.520s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[31.520s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[31.520s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[31.575s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[31.668s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kangim/robot_ws/install/local_setup.ps1'
+[31.673s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kangim/robot_ws/install/_local_setup_util_ps1.py'
+[31.679s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kangim/robot_ws/install/setup.ps1'
+[31.770s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kangim/robot_ws/install/local_setup.sh'
+[31.773s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kangim/robot_ws/install/_local_setup_util_sh.py'
+[31.776s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kangim/robot_ws/install/setup.sh'
+[31.866s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kangim/robot_ws/install/local_setup.bash'
+[31.868s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kangim/robot_ws/install/setup.bash'
+[31.945s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kangim/robot_ws/install/local_setup.zsh'
+[31.948s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kangim/robot_ws/install/setup.zsh'
