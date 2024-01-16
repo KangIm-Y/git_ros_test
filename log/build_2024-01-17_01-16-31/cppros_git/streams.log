@@ -1,0 +1,27 @@
+[0.838s] Invoking command in '/home/kangim/robot_ws/build/cppros_git': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kangim/robot_ws/install/pyros_git:/opt/ros/humble /usr/bin/cmake --build /home/kangim/robot_ws/build/cppros_git -- -j4 -l4
+[1.127s] [ 25%] [32mBuilding CXX object CMakeFiles/cpppub_helloworld.dir/src/cpppub_helloworld.cpp.o[0m
+[1.130s] [ 75%] Built target cppsub_helloworld
+[23.361s] [100%] [32m[1mLinking CXX executable cpppub_helloworld[0m
+[24.609s] [100%] Built target cpppub_helloworld
+[24.653s] Invoked command in '/home/kangim/robot_ws/build/cppros_git' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kangim/robot_ws/install/pyros_git:/opt/ros/humble /usr/bin/cmake --build /home/kangim/robot_ws/build/cppros_git -- -j4 -l4
+[24.876s] Invoking command in '/home/kangim/robot_ws/build/cppros_git': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kangim/robot_ws/install/pyros_git:/opt/ros/humble /usr/bin/cmake --install /home/kangim/robot_ws/build/cppros_git
+[24.909s] -- Install configuration: ""
+[24.910s] -- Execute custom install script
+[24.913s] -- Up-to-date symlink: /home/kangim/robot_ws/install/cppros_git/lib/cppros_git/cpppub_helloworld
+[24.913s] -- Up-to-date symlink: /home/kangim/robot_ws/install/cppros_git/lib/cppros_git/cppsub_helloworld
+[24.915s] -- Up-to-date symlink: /home/kangim/robot_ws/install/cppros_git/share/ament_index/resource_index/package_run_dependencies/cppros_git
+[24.916s] -- Up-to-date symlink: /home/kangim/robot_ws/install/cppros_git/share/ament_index/resource_index/parent_prefix_path/cppros_git
+[24.917s] -- Up-to-date symlink: /home/kangim/robot_ws/install/cppros_git/share/cppros_git/environment/ament_prefix_path.sh
+[24.918s] -- Up-to-date symlink: /home/kangim/robot_ws/install/cppros_git/share/cppros_git/environment/ament_prefix_path.dsv
+[24.919s] -- Up-to-date symlink: /home/kangim/robot_ws/install/cppros_git/share/cppros_git/environment/path.sh
+[24.920s] -- Up-to-date symlink: /home/kangim/robot_ws/install/cppros_git/share/cppros_git/environment/path.dsv
+[24.921s] -- Up-to-date symlink: /home/kangim/robot_ws/install/cppros_git/share/cppros_git/local_setup.bash
+[24.922s] -- Up-to-date symlink: /home/kangim/robot_ws/install/cppros_git/share/cppros_git/local_setup.sh
+[24.923s] -- Up-to-date symlink: /home/kangim/robot_ws/install/cppros_git/share/cppros_git/local_setup.zsh
+[24.924s] -- Up-to-date symlink: /home/kangim/robot_ws/install/cppros_git/share/cppros_git/local_setup.dsv
+[24.925s] -- Symlinking: /home/kangim/robot_ws/install/cppros_git/share/cppros_git/package.dsv
+[24.964s] -- Up-to-date symlink: /home/kangim/robot_ws/install/cppros_git/share/ament_index/resource_index/packages/cppros_git
+[24.964s] -- Up-to-date symlink: /home/kangim/robot_ws/install/cppros_git/share/cppros_git/cmake/cppros_gitConfig.cmake
+[24.965s] -- Up-to-date symlink: /home/kangim/robot_ws/install/cppros_git/share/cppros_git/cmake/cppros_gitConfig-version.cmake
+[24.966s] -- Up-to-date symlink: /home/kangim/robot_ws/install/cppros_git/share/cppros_git/package.xml
+[24.975s] Invoked command in '/home/kangim/robot_ws/build/cppros_git' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kangim/robot_ws/install/pyros_git:/opt/ros/humble /usr/bin/cmake --install /home/kangim/robot_ws/build/cppros_git
