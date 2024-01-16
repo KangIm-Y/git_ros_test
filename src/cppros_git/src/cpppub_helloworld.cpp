@@ -26,7 +26,7 @@ private:
   void publish_helloworld_msg()
   {
     auto msg = std_msgs::msg::String();
-    msg.data = "Hello World: " + std::to_string(count_+=3);
+    msg.data = "Hello World: " + std::to_string(count_+=4);
     RCLCPP_INFO(this->get_logger(), "Published message: '%s'", msg.data.c_str());
     helloworld_publisher_->publish(msg);
   }
