@@ -1,0 +1,21 @@
+[100%] Built target cpppub_helloworld
+[100%] Built target cppsub_helloworld
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/kangim/robot_ws/install/cppros_git/lib/cppros_git/cpppub_helloworld
+-- Up-to-date symlink: /home/kangim/robot_ws/install/cppros_git/lib/cppros_git/cppsub_helloworld
+-- Up-to-date symlink: /home/kangim/robot_ws/install/cppros_git/share/ament_index/resource_index/package_run_dependencies/cppros_git
+-- Up-to-date symlink: /home/kangim/robot_ws/install/cppros_git/share/ament_index/resource_index/parent_prefix_path/cppros_git
+-- Up-to-date symlink: /home/kangim/robot_ws/install/cppros_git/share/cppros_git/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/kangim/robot_ws/install/cppros_git/share/cppros_git/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/kangim/robot_ws/install/cppros_git/share/cppros_git/environment/path.sh
+-- Up-to-date symlink: /home/kangim/robot_ws/install/cppros_git/share/cppros_git/environment/path.dsv
+-- Up-to-date symlink: /home/kangim/robot_ws/install/cppros_git/share/cppros_git/local_setup.bash
+-- Up-to-date symlink: /home/kangim/robot_ws/install/cppros_git/share/cppros_git/local_setup.sh
+-- Up-to-date symlink: /home/kangim/robot_ws/install/cppros_git/share/cppros_git/local_setup.zsh
+-- Up-to-date symlink: /home/kangim/robot_ws/install/cppros_git/share/cppros_git/local_setup.dsv
+-- Symlinking: /home/kangim/robot_ws/install/cppros_git/share/cppros_git/package.dsv
+-- Up-to-date symlink: /home/kangim/robot_ws/install/cppros_git/share/ament_index/resource_index/packages/cppros_git
+-- Up-to-date symlink: /home/kangim/robot_ws/install/cppros_git/share/cppros_git/cmake/cppros_gitConfig.cmake
+-- Up-to-date symlink: /home/kangim/robot_ws/install/cppros_git/share/cppros_git/cmake/cppros_gitConfig-version.cmake
+-- Up-to-date symlink: /home/kangim/robot_ws/install/cppros_git/share/cppros_git/package.xml

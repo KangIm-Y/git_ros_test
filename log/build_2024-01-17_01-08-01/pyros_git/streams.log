@@ -1,0 +1,18 @@
+[0.688s] Invoking command in '/home/kangim/robot_ws/build/pyros_git': PYTHONPATH=/home/kangim/robot_ws/build/pyros_git/prefix_override:/home/kangim/robot_ws/install/pyros_git/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/kangim/robot_ws/build/pyros_git/build --no-deps install_data
+[0.913s] running develop
+[1.019s] running egg_info
+[1.020s] writing pyros_git.egg-info/PKG-INFO
+[1.020s] writing dependency_links to pyros_git.egg-info/dependency_links.txt
+[1.020s] writing entry points to pyros_git.egg-info/entry_points.txt
+[1.020s] writing requirements to pyros_git.egg-info/requires.txt
+[1.020s] writing top-level names to pyros_git.egg-info/top_level.txt
+[1.021s] reading manifest file 'pyros_git.egg-info/SOURCES.txt'
+[1.022s] writing manifest file 'pyros_git.egg-info/SOURCES.txt'
+[1.024s] running build_ext
+[1.024s] Creating /home/kangim/robot_ws/install/pyros_git/lib/python3.10/site-packages/pyros-git.egg-link (link to .)
+[1.025s] Installing pypub_helloworld script to /home/kangim/robot_ws/install/pyros_git/lib/pyros_git
+[1.025s] Installing pysub_helloworld script to /home/kangim/robot_ws/install/pyros_git/lib/pyros_git
+[1.025s] 
+[1.026s] Installed /home/kangim/robot_ws/build/pyros_git
+[1.026s] running install_data
+[1.061s] Invoked command in '/home/kangim/robot_ws/build/pyros_git' returned '0': PYTHONPATH=/home/kangim/robot_ws/build/pyros_git/prefix_override:/home/kangim/robot_ws/install/pyros_git/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/kangim/robot_ws/build/pyros_git/build --no-deps install_data
