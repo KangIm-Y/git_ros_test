@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/kangim/robot_ws/build/git_ros/pub_helloworld" "/home/kangim/robot_ws/build/git_ros/sub_helloworld" "TARGETS" "pub_helloworld" "sub_helloworld" "DESTINATION" "lib/git_ros")

@@ -1,8 +1,0 @@
-source;share/cppros_git/hook/cmake_prefix_path.ps1
-source;share/cppros_git/hook/cmake_prefix_path.dsv
-source;share/cppros_git/hook/cmake_prefix_path.sh
-source;share/cppros_git/local_setup.bash
-source;share/cppros_git/local_setup.dsv
-source;share/cppros_git/local_setup.ps1
-source;share/cppros_git/local_setup.sh
-source;share/cppros_git/local_setup.zsh
