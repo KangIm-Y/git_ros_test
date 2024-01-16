@@ -153,7 +153,7 @@ cpppub_helloworld: /opt/ros/humble/lib/librosidl_typesupport_c.so
 cpppub_helloworld: /opt/ros/humble/lib/librcpputils.so
 cpppub_helloworld: /opt/ros/humble/lib/librosidl_runtime_c.so
 cpppub_helloworld: /opt/ros/humble/lib/librcutils.so
-cpppub_helloworld: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+cpppub_helloworld: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 cpppub_helloworld: CMakeFiles/cpppub_helloworld.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kangim/robot_ws/build/cppros_git/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cpppub_helloworld"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cpppub_helloworld.dir/link.txt --verbose=$(VERBOSE)

@@ -1,0 +1,230 @@
+[0.000000] (-) TimerEvent: {}
+[0.000460] (cppros_git) JobQueued: {'identifier': 'cppros_git', 'dependencies': OrderedDict()}
+[0.000579] (pyros_git) JobQueued: {'identifier': 'pyros_git', 'dependencies': OrderedDict()}
+[0.000600] (cppros_git) JobStarted: {'identifier': 'cppros_git'}
+[0.049768] (pyros_git) JobStarted: {'identifier': 'pyros_git'}
+[0.099408] (-) TimerEvent: {}
+[0.106130] (cppros_git) JobProgress: {'identifier': 'cppros_git', 'progress': 'cmake'}
+[0.106896] (cppros_git) Command: {'cmd': ['/usr/bin/cmake', '/home/kangim/robot_ws/src/cppros_git', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/kangim/robot_ws/install/cppros_git'], 'cwd': '/home/kangim/robot_ws/build/cppros_git', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kangim'), ('ROS_NAMESPACE', 'robot1'), ('GIT_ASKPASS', '/home/kangim/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/kangim'), ('OLDPWD', '/home/kangim/robot_ws'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-8b2a68a8-59af-4801-a2d1-88e06017c53a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/kangim/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/kangim/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/home/kangim/robot_ws'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kangim/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kangim'), ('NAME', 'DESKTOP-0MM8CH2'), ('WSL_INTEROP', '/run/WSL/409_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kangim/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/home/kangim/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft/jdk-11.0.12.7-hotspot/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Bandizip/:/mnt/c/Users/hongik/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/hongik/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9e76aa5efe.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/kangim/robot_ws/install/pyros_git:/home/kangim/robot_ws/install/cppros_git:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/kangim/robot_ws/build/cppros_git'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kangim/robot_ws/build/pyros_git:/home/kangim/robot_ws/install/pyros_git/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/kangim/robot_ws/install/cppros_git:/home/kangim/robot_ws/install/git_ros:/home/kangim/robot_ws/install/pyros_git:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.187190] (cppros_git) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199530] (-) TimerEvent: {}
+[0.299916] (-) TimerEvent: {}
+[0.395647] (cppros_git) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.400272] (-) TimerEvent: {}
+[0.491904] (cppros_git) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.500433] (-) TimerEvent: {}
+[0.574361] (cppros_git) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.581318] (cppros_git) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.581744] (cppros_git) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.582216] (cppros_git) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.585970] (cppros_git) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.600834] (-) TimerEvent: {}
+[0.701301] (-) TimerEvent: {}
+[0.705864] (cppros_git) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.713070] (cppros_git) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.713973] (cppros_git) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.714337] (cppros_git) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.716325] (cppros_git) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.758953] (pyros_git) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/kangim/robot_ws/build/pyros_git/build', '--no-deps', 'install_data'], 'cwd': '/home/kangim/robot_ws/build/pyros_git', 'env': {'RCUTILS_LOGGING_BUFFERED_STREAM': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kangim', 'ROS_NAMESPACE': 'robot1', 'GIT_ASKPASS': '/home/kangim/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'RCUTILS_CONSOLE_OUTPUT_FORMAT': '[{severity}]: {message}', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/kangim', 'OLDPWD': '/home/kangim/robot_ws', 'TERM_PROGRAM_VERSION': '1.85.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-8b2a68a8-59af-4801-a2d1-88e06017c53a.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/kangim/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/kangim/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', '_colcon_cd_root': '/home/kangim/robot_ws', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kangim/robot_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kangim', 'NAME': 'DESKTOP-0MM8CH2', 'WSL_INTEROP': '/run/WSL/409_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/kangim/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/home/kangim/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft/jdk-11.0.12.7-hotspot/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Bandizip/:/mnt/c/Users/hongik/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/hongik/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-9e76aa5efe.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '7', 'AMENT_PREFIX_PATH': '/home/kangim/robot_ws/install/pyros_git:/home/kangim/robot_ws/install/cppros_git:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'RCUTILS_LOGGING_USE_STDOUT': '0', 'PWD': '/home/kangim/robot_ws/build/pyros_git', 'RCUTILS_COLORIZED_OUTPUT': '1', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kangim/robot_ws/build/pyros_git/prefix_override:/home/kangim/robot_ws/install/pyros_git/lib/python3.10/site-packages:/home/kangim/robot_ws/build/pyros_git:/home/kangim/robot_ws/install/pyros_git/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/kangim/robot_ws/install/cppros_git:/home/kangim/robot_ws/install/git_ros', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}, 'shell': False}
+[0.801448] (-) TimerEvent: {}
+[0.891892] (cppros_git) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.901634] (-) TimerEvent: {}
+[0.954637] (cppros_git) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.972219] (cppros_git) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.997984] (pyros_git) StdoutLine: {'line': b'running develop\n'}
+[1.001742] (-) TimerEvent: {}
+[1.053631] (cppros_git) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.057074] (cppros_git) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.062951] (cppros_git) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.072596] (cppros_git) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.087201] (cppros_git) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.101904] (-) TimerEvent: {}
+[1.110334] (pyros_git) StdoutLine: {'line': b'running egg_info\n'}
+[1.110639] (pyros_git) StdoutLine: {'line': b'creating pyros_git.egg-info\n'}
+[1.110976] (pyros_git) StdoutLine: {'line': b'writing pyros_git.egg-info/PKG-INFO\n'}
+[1.111360] (pyros_git) StdoutLine: {'line': b'writing dependency_links to pyros_git.egg-info/dependency_links.txt\n'}
+[1.111669] (pyros_git) StdoutLine: {'line': b'writing entry points to pyros_git.egg-info/entry_points.txt\n'}
+[1.111782] (pyros_git) StdoutLine: {'line': b'writing requirements to pyros_git.egg-info/requires.txt\n'}
+[1.111853] (pyros_git) StdoutLine: {'line': b'writing top-level names to pyros_git.egg-info/top_level.txt\n'}
+[1.112020] (pyros_git) StdoutLine: {'line': b"writing manifest file 'pyros_git.egg-info/SOURCES.txt'\n"}
+[1.113986] (pyros_git) StdoutLine: {'line': b"reading manifest file 'pyros_git.egg-info/SOURCES.txt'\n"}
+[1.114558] (pyros_git) StdoutLine: {'line': b"writing manifest file 'pyros_git.egg-info/SOURCES.txt'\n"}
+[1.116068] (pyros_git) StdoutLine: {'line': b'running build_ext\n'}
+[1.116447] (pyros_git) StdoutLine: {'line': b'Creating /home/kangim/robot_ws/install/pyros_git/lib/python3.10/site-packages/pyros-git.egg-link (link to .)\n'}
+[1.117125] (pyros_git) StdoutLine: {'line': b'Installing pypub_helloworld script to /home/kangim/robot_ws/install/pyros_git/lib/pyros_git\n'}
+[1.117542] (pyros_git) StdoutLine: {'line': b'Installing pysub_helloworld script to /home/kangim/robot_ws/install/pyros_git/lib/pyros_git\n'}
+[1.117779] (pyros_git) StdoutLine: {'line': b'\n'}
+[1.118367] (pyros_git) StdoutLine: {'line': b'Installed /home/kangim/robot_ws/build/pyros_git\n'}
+[1.118760] (pyros_git) StdoutLine: {'line': b'running install_data\n'}
+[1.118886] (pyros_git) StdoutLine: {'line': b'creating /home/kangim/robot_ws/install/pyros_git/share/ament_index\n'}
+[1.119024] (pyros_git) StdoutLine: {'line': b'creating /home/kangim/robot_ws/install/pyros_git/share/ament_index/resource_index\n'}
+[1.119405] (pyros_git) StdoutLine: {'line': b'creating /home/kangim/robot_ws/install/pyros_git/share/ament_index/resource_index/packages\n'}
+[1.119547] (pyros_git) StdoutLine: {'line': b'copying resource/pyros_git -> /home/kangim/robot_ws/install/pyros_git/share/ament_index/resource_index/packages\n'}
+[1.119609] (pyros_git) StdoutLine: {'line': b'copying package.xml -> /home/kangim/robot_ws/install/pyros_git/share/pyros_git\n'}
+[1.148876] (cppros_git) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.150658] (cppros_git) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.156788] (pyros_git) CommandEnded: {'returncode': 0}
+[1.202040] (-) TimerEvent: {}
+[1.214388] (pyros_git) JobEnded: {'identifier': 'pyros_git', 'rc': 0}
+[1.302186] (-) TimerEvent: {}
+[1.402556] (-) TimerEvent: {}
+[1.502956] (-) TimerEvent: {}
+[1.570788] (cppros_git) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.603100] (-) TimerEvent: {}
+[1.703473] (-) TimerEvent: {}
+[1.803858] (-) TimerEvent: {}
+[1.904250] (-) TimerEvent: {}
+[2.004712] (-) TimerEvent: {}
+[2.068989] (cppros_git) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.104867] (-) TimerEvent: {}
+[2.205238] (-) TimerEvent: {}
+[2.305598] (-) TimerEvent: {}
+[2.405964] (-) TimerEvent: {}
+[2.506359] (-) TimerEvent: {}
+[2.606730] (-) TimerEvent: {}
+[2.707089] (-) TimerEvent: {}
+[2.807484] (-) TimerEvent: {}
+[2.875812] (cppros_git) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.883182] (cppros_git) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.907649] (-) TimerEvent: {}
+[2.968454] (cppros_git) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.968818] (cppros_git) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.008064] (-) TimerEvent: {}
+[3.070816] (cppros_git) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.072181] (cppros_git) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.108407] (-) TimerEvent: {}
+[3.203062] (cppros_git) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.208556] (-) TimerEvent: {}
+[3.283795] (cppros_git) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.284307] (cppros_git) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.284458] (cppros_git) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.284666] (cppros_git) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.285436] (cppros_git) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.285532] (cppros_git) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.285957] (cppros_git) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.287184] (cppros_git) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.296038] (cppros_git) StdoutLine: {'line': b'-- Generating done\n'}
+[3.298835] (cppros_git) StdoutLine: {'line': b'-- Build files have been written to: /home/kangim/robot_ws/build/cppros_git\n'}
+[3.308909] (-) TimerEvent: {}
+[3.311913] (cppros_git) CommandEnded: {'returncode': 0}
+[3.312995] (cppros_git) JobProgress: {'identifier': 'cppros_git', 'progress': 'build'}
+[3.313042] (cppros_git) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kangim/robot_ws/build/cppros_git', '--', '-j8', '-l8'], 'cwd': '/home/kangim/robot_ws/build/cppros_git', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kangim'), ('ROS_NAMESPACE', 'robot1'), ('GIT_ASKPASS', '/home/kangim/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/kangim'), ('OLDPWD', '/home/kangim/robot_ws'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-8b2a68a8-59af-4801-a2d1-88e06017c53a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/kangim/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/kangim/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/home/kangim/robot_ws'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kangim/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kangim'), ('NAME', 'DESKTOP-0MM8CH2'), ('WSL_INTEROP', '/run/WSL/409_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kangim/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/home/kangim/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft/jdk-11.0.12.7-hotspot/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Bandizip/:/mnt/c/Users/hongik/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/hongik/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9e76aa5efe.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/kangim/robot_ws/install/pyros_git:/home/kangim/robot_ws/install/cppros_git:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/kangim/robot_ws/build/cppros_git'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kangim/robot_ws/build/pyros_git:/home/kangim/robot_ws/install/pyros_git/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/kangim/robot_ws/install/cppros_git:/home/kangim/robot_ws/install/git_ros:/home/kangim/robot_ws/install/pyros_git:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[3.353872] (cppros_git) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cppsub_helloworld.dir/src/cppsub_helloworld.cpp.o\x1b[0m\n'}
+[3.354142] (cppros_git) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cpppub_helloworld.dir/src/cpppub_helloworld.cpp.o\x1b[0m\n'}
+[3.409065] (-) TimerEvent: {}
+[3.509523] (-) TimerEvent: {}
+[3.610025] (-) TimerEvent: {}
+[3.710564] (-) TimerEvent: {}
+[3.811090] (-) TimerEvent: {}
+[3.911982] (-) TimerEvent: {}
+[4.012525] (-) TimerEvent: {}
+[4.113163] (-) TimerEvent: {}
+[4.214202] (-) TimerEvent: {}
+[4.314799] (-) TimerEvent: {}
+[4.415526] (-) TimerEvent: {}
+[4.515999] (-) TimerEvent: {}
+[4.616482] (-) TimerEvent: {}
+[4.716970] (-) TimerEvent: {}
+[4.817485] (-) TimerEvent: {}
+[4.918037] (-) TimerEvent: {}
+[5.018677] (-) TimerEvent: {}
+[5.119230] (-) TimerEvent: {}
+[5.219817] (-) TimerEvent: {}
+[5.320354] (-) TimerEvent: {}
+[5.421042] (-) TimerEvent: {}
+[5.521748] (-) TimerEvent: {}
+[5.622351] (-) TimerEvent: {}
+[5.723175] (-) TimerEvent: {}
+[5.823652] (-) TimerEvent: {}
+[5.924198] (-) TimerEvent: {}
+[6.025125] (-) TimerEvent: {}
+[6.125664] (-) TimerEvent: {}
+[6.226285] (-) TimerEvent: {}
+[6.326938] (-) TimerEvent: {}
+[6.427462] (-) TimerEvent: {}
+[6.528074] (-) TimerEvent: {}
+[6.628645] (-) TimerEvent: {}
+[6.729395] (-) TimerEvent: {}
+[6.830205] (-) TimerEvent: {}
+[6.931021] (-) TimerEvent: {}
+[7.031576] (-) TimerEvent: {}
+[7.132221] (-) TimerEvent: {}
+[7.232681] (-) TimerEvent: {}
+[7.333296] (-) TimerEvent: {}
+[7.434164] (-) TimerEvent: {}
+[7.534707] (-) TimerEvent: {}
+[7.635243] (-) TimerEvent: {}
+[7.735781] (-) TimerEvent: {}
+[7.836409] (-) TimerEvent: {}
+[7.937013] (-) TimerEvent: {}
+[8.021994] (cppros_git) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable cpppub_helloworld\x1b[0m\n'}
+[8.037150] (-) TimerEvent: {}
+[8.137833] (-) TimerEvent: {}
+[8.238645] (-) TimerEvent: {}
+[8.285420] (cppros_git) StdoutLine: {'line': b'[ 75%] Built target cpppub_helloworld\n'}
+[8.338777] (-) TimerEvent: {}
+[8.439279] (-) TimerEvent: {}
+[8.539748] (-) TimerEvent: {}
+[8.640366] (-) TimerEvent: {}
+[8.740915] (-) TimerEvent: {}
+[8.841519] (-) TimerEvent: {}
+[8.942124] (-) TimerEvent: {}
+[9.042827] (-) TimerEvent: {}
+[9.143435] (-) TimerEvent: {}
+[9.243957] (-) TimerEvent: {}
+[9.344414] (-) TimerEvent: {}
+[9.444857] (-) TimerEvent: {}
+[9.545405] (-) TimerEvent: {}
+[9.646136] (-) TimerEvent: {}
+[9.747089] (-) TimerEvent: {}
+[9.847850] (-) TimerEvent: {}
+[9.948371] (-) TimerEvent: {}
+[10.048861] (-) TimerEvent: {}
+[10.149405] (-) TimerEvent: {}
+[10.249898] (-) TimerEvent: {}
+[10.350418] (-) TimerEvent: {}
+[10.450835] (-) TimerEvent: {}
+[10.551395] (-) TimerEvent: {}
+[10.651854] (-) TimerEvent: {}
+[10.752312] (-) TimerEvent: {}
+[10.852862] (-) TimerEvent: {}
+[10.953316] (-) TimerEvent: {}
+[11.053856] (-) TimerEvent: {}
+[11.154329] (-) TimerEvent: {}
+[11.254889] (-) TimerEvent: {}
+[11.355441] (-) TimerEvent: {}
+[11.455987] (-) TimerEvent: {}
+[11.545667] (cppros_git) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cppsub_helloworld\x1b[0m\n'}
+[11.556304] (-) TimerEvent: {}
+[11.656921] (-) TimerEvent: {}
+[11.757578] (-) TimerEvent: {}
+[11.858039] (-) TimerEvent: {}
+[11.928532] (cppros_git) StdoutLine: {'line': b'[100%] Built target cppsub_helloworld\n'}
+[11.939756] (cppros_git) CommandEnded: {'returncode': 0}
+[11.958252] (-) TimerEvent: {}
+[11.963498] (cppros_git) JobProgress: {'identifier': 'cppros_git', 'progress': 'install'}
+[11.971657] (cppros_git) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kangim/robot_ws/build/cppros_git'], 'cwd': '/home/kangim/robot_ws/build/cppros_git', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kangim'), ('ROS_NAMESPACE', 'robot1'), ('GIT_ASKPASS', '/home/kangim/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/kangim'), ('OLDPWD', '/home/kangim/robot_ws'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-8b2a68a8-59af-4801-a2d1-88e06017c53a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/kangim/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/kangim/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/home/kangim/robot_ws'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kangim/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kangim'), ('NAME', 'DESKTOP-0MM8CH2'), ('WSL_INTEROP', '/run/WSL/409_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kangim/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/home/kangim/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft/jdk-11.0.12.7-hotspot/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Bandizip/:/mnt/c/Users/hongik/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/hongik/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9e76aa5efe.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/kangim/robot_ws/install/pyros_git:/home/kangim/robot_ws/install/cppros_git:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/kangim/robot_ws/build/cppros_git'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kangim/robot_ws/build/pyros_git:/home/kangim/robot_ws/install/pyros_git/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/kangim/robot_ws/install/cppros_git:/home/kangim/robot_ws/install/git_ros:/home/kangim/robot_ws/install/pyros_git:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[11.977102] (cppros_git) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.977562] (cppros_git) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[11.978146] (cppros_git) StdoutLine: {'line': b'-- Symlinking: /home/kangim/robot_ws/install/cppros_git/lib/cppros_git/cpppub_helloworld\n'}
+[11.987572] (cppros_git) StdoutLine: {'line': b'-- Symlinking: /home/kangim/robot_ws/install/cppros_git/lib/cppros_git/cppsub_helloworld\n'}
+[11.993899] (cppros_git) StdoutLine: {'line': b'-- Symlinking: /home/kangim/robot_ws/install/cppros_git/share/ament_index/resource_index/package_run_dependencies/cppros_git\n'}
+[12.002575] (cppros_git) StdoutLine: {'line': b'-- Symlinking: /home/kangim/robot_ws/install/cppros_git/share/ament_index/resource_index/parent_prefix_path/cppros_git\n'}
+[12.009105] (cppros_git) StdoutLine: {'line': b'-- Symlinking: /home/kangim/robot_ws/install/cppros_git/share/cppros_git/environment/ament_prefix_path.sh\n'}
+[12.015352] (cppros_git) StdoutLine: {'line': b'-- Symlinking: /home/kangim/robot_ws/install/cppros_git/share/cppros_git/environment/ament_prefix_path.dsv\n'}
+[12.021587] (cppros_git) StdoutLine: {'line': b'-- Symlinking: /home/kangim/robot_ws/install/cppros_git/share/cppros_git/environment/path.sh\n'}
+[12.027203] (cppros_git) StdoutLine: {'line': b'-- Symlinking: /home/kangim/robot_ws/install/cppros_git/share/cppros_git/environment/path.dsv\n'}
+[12.033369] (cppros_git) StdoutLine: {'line': b'-- Symlinking: /home/kangim/robot_ws/install/cppros_git/share/cppros_git/local_setup.bash\n'}
+[12.039466] (cppros_git) StdoutLine: {'line': b'-- Symlinking: /home/kangim/robot_ws/install/cppros_git/share/cppros_git/local_setup.sh\n'}
+[12.045082] (cppros_git) StdoutLine: {'line': b'-- Symlinking: /home/kangim/robot_ws/install/cppros_git/share/cppros_git/local_setup.zsh\n'}
+[12.052193] (cppros_git) StdoutLine: {'line': b'-- Symlinking: /home/kangim/robot_ws/install/cppros_git/share/cppros_git/local_setup.dsv\n'}
+[12.058358] (cppros_git) StdoutLine: {'line': b'-- Symlinking: /home/kangim/robot_ws/install/cppros_git/share/cppros_git/package.dsv\n'}
+[12.058542] (-) TimerEvent: {}
+[12.065211] (cppros_git) StdoutLine: {'line': b'-- Symlinking: /home/kangim/robot_ws/install/cppros_git/share/ament_index/resource_index/packages/cppros_git\n'}
+[12.072396] (cppros_git) StdoutLine: {'line': b'-- Symlinking: /home/kangim/robot_ws/install/cppros_git/share/cppros_git/cmake/cppros_gitConfig.cmake\n'}
+[12.078265] (cppros_git) StdoutLine: {'line': b'-- Symlinking: /home/kangim/robot_ws/install/cppros_git/share/cppros_git/cmake/cppros_gitConfig-version.cmake\n'}
+[12.088465] (cppros_git) StdoutLine: {'line': b'-- Symlinking: /home/kangim/robot_ws/install/cppros_git/share/cppros_git/package.xml\n'}
+[12.096004] (cppros_git) CommandEnded: {'returncode': 0}
+[12.158966] (-) TimerEvent: {}
+[12.202757] (cppros_git) JobEnded: {'identifier': 'cppros_git', 'rc': 0}
+[12.204301] (-) EventReactorShutdown: {}
