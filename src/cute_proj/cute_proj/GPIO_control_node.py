@@ -2,7 +2,12 @@ import rclpy
 from rclpy.node import Node
 from rclpy.qos import QoSProfile
 from std_msgs.msg import Int32
+import RPi.GPIO as GPIO
 
+
+led_pin = 17
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(led_pin, GPIO.OUT)
 
 class GPIO_control(Node):
 
@@ -13,11 +18,28 @@ class GPIO_control(Node):
             Int32,
             'GPIO_set',
             self.subscribe_topic_message,
-            qos_profile)
+            qos_profile)     
+        self.last_msg_data = 0
+        self.timer = self.create_timer(1.0, self.LED_control)
 
-    def subscribe_topic_message(self, msg):
-        self.get_logger().info('Received message: {0}'.format(msg.data))
+    def subscribe_topic_message(self, msg):        
+        self.last_msg_data = msg.data
+        print("Terminal Data Input: ", self.last_msg_data)
 
+    def LED_control(self):
+        input_data = self.last_msg_data
+                
+        if input_data == 1:
+            print("LED_control HIGH")
+            GPIO.output(led_pin, GPIO.HIGH)
+            
+        elif input_data == 0:
+            print("LED_control LOW")
+            GPIO.output(led_pin, GPIO.LOW)
+            
+        else:
+            print("Data Error \n")
+            return
 
 def main(args=None):
     rclpy.init(args=args)
@@ -25,11 +47,11 @@ def main(args=None):
     try:
         rclpy.spin(node)
     except KeyboardInterrupt:
+        GPIO.cleanup()
         node.get_logger().info('Keyboard Interrupt (SIGINT)')
     finally:
         node.destroy_node()
         rclpy.shutdown()
-
 
 if __name__ == '__main__':
     main()
