@@ -1,7 +1,7 @@
 import rclpy
 from rclpy.node import Node
 from rclpy.qos import QoSProfile
-from std_msgs.msg import String
+from std_msgs.msg import Int32
 
 
 class HelloworldPublisher(Node):
@@ -9,13 +9,14 @@ class HelloworldPublisher(Node):
     def __init__(self):
         super().__init__('helloworld_publisher')
         qos_profile = QoSProfile(depth=10)
-        self.helloworld_publisher = self.create_publisher(String, 'helloworld', qos_profile)
+        self.helloworld_publisher = self.create_publisher(Int32, 'helloworld', qos_profile)
         self.timer = self.create_timer(1, self.publish_helloworld_msg)
         self.count = 0
 
     def publish_helloworld_msg(self):
-        msg = String()
-        msg.data = 'Hello World: {0}'.format(self.count)
+        msg = Int32()
+        msg.data = self.count
+        # msg.data = 'Hello World: {0}'.format(self.count)
         self.helloworld_publisher.publish(msg)
         self.get_logger().info('Published message: {0}'.format(msg.data))
         self.count += 1

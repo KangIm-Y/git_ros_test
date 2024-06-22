@@ -1,7 +1,7 @@
 import rclpy
 from rclpy.node import Node
 from rclpy.qos import QoSProfile
-from std_msgs.msg import String
+from std_msgs.msg import Int32
 
 
 class HelloworldSubscriber(Node):
@@ -10,7 +10,7 @@ class HelloworldSubscriber(Node):
         super().__init__('Helloworld_subscriber')
         qos_profile = QoSProfile(depth=10)
         self.helloworld_subscriber = self.create_subscription(
-            String,
+            Int32,
             'helloworld',
             self.subscribe_topic_message,
             qos_profile)
